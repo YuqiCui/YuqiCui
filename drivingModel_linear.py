@@ -14,6 +14,7 @@ from keras.utils import np_utils
 from keras.layers.advanced_activations import ELU
 from keras.regularizers import l1l2
 
+
 def get_cnn_2d_1():
     np.random.seed(1007)
     model=Sequential()
